@@ -1,10 +1,10 @@
 Clean_data.txt output format
 ===
 
-* activity
+## activity
 Contains the activity as text
 
-* activity_id
+## activity_id
 Contains numbers 1 to 6 corresponding to the following activities:
 - 1 WALKING
 - 2 WALKING_UPSTAIRS
@@ -13,7 +13,7 @@ Contains numbers 1 to 6 corresponding to the following activities:
 - 5 STANDING
 - 6 LAYING
 
-* subject_id
+## subject_id
 The subject ID, integer in range 1-30.
 
 Subsequent columns are the average of all values for the given activity and subject, for the observations in the UCI HAR Dataset
